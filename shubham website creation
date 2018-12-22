@@ -42,10 +42,10 @@ hacker@hacker:~/git/shubham$ sudo gedit /etc/hosts
 hacker@hacker:~/git/shubham$ cd /etc/apache2/sites-available/
 hacker@hacker:/etc/apache2/sites-available$ sudo cp 000-default.conf local.shubhamgaonkar.com.conf
 hacker@hacker:/etc/apache2/sites-available$ ls
-000-default.conf            local.newcareer.in.conf
-default-ssl.conf            local.omkargaonkar.com.conf
-local.godaddy.com.conf      local.resumeomkargaonkar.com.conf
-local.mango4youd8.com.conf  local.shubhamgaonkar.com.conf
+000-default.conf            local.ghtfhgcfc.in.conf
+
+
+local.guohohohoihioh.conf  local.shubhamgaonkar.com.conf
 local.newcareer.conf        local.sitewala.com.conf
 hacker@hacker:/etc/apache2/sites-available$ sudo gedit local.shubhamgaonkar.com.conf 
 
