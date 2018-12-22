@@ -49,6 +49,10 @@ local.mango4youd8.com.conf  local.shubhamgaonkar.com.conf
 local.newcareer.conf        local.sitewala.com.conf
 hacker@hacker:/etc/apache2/sites-available$ sudo gedit local.shubhamgaonkar.com.conf 
 
+*******************************************************************************************************
+1.cut # 2.change name to our website name 3. cut html and again give name to websitename 
+*******************************************************************************************************
+
 (gedit:6272): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
 ** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
