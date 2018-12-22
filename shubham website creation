@@ -1,0 +1,78 @@
+download drupal 8 tar file
+extract drupal folder in git folder and rename the folder name
+
+
+open terminal
+go to git folder
+
+/home/hacker/git/shubham/sites/default & change copy and pest the default.settings. and rename new one to setting
+
+
+
+
+
+
+
+
+
+
+
+
+***************************
+
+commands on terminal
+
+***************************
+hacker@hacker:~$ cd git
+hacker@hacker:~/git$ cd shubham
+hacker@hacker:~/git/shubham$ sudo gedit /etc/hosts
+[sudo] password for hacker: 
+
+(gedit:6141): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:6141): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6141): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6141): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6141): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6141): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+hacker@hacker:~/git/shubham$ cd /etc/apache2/sites-available/
+hacker@hacker:/etc/apache2/sites-available$ sudo cp 000-default.conf local.shubhamgaonkar.com.conf
+hacker@hacker:/etc/apache2/sites-available$ ls
+000-default.conf            local.newcareer.in.conf
+default-ssl.conf            local.omkargaonkar.com.conf
+local.godaddy.com.conf      local.resumeomkargaonkar.com.conf
+local.mango4youd8.com.conf  local.shubhamgaonkar.com.conf
+local.newcareer.conf        local.sitewala.com.conf
+hacker@hacker:/etc/apache2/sites-available$ sudo gedit local.shubhamgaonkar.com.conf 
+
+(gedit:6272): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6272): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+hacker@hacker:/etc/apache2/sites-available$ sudo a2ensite local.shubhamgaonkar.com.conf 
+Enabling site local.shubhamgaonkar.com.
+To activate the new configuration, you need to run:
+  service apache2 reload
+hacker@hacker:/etc/apache2/sites-available$ sudo a2ensite local.shubhamgaonkar.com
+Site local.shubhamgaonkar.com already enabled
+hacker@hacker:/etc/apache2/sites-available$ sudo service apache2 restart 
+hacker@hacker:/etc/apache2/sites-available$ sudo chmod 777 -R /var/www/local.shubhamgaonkar.com/sites/default/files/
+hacker@hacker:/etc/apache2/sites-available$ sudo chmod 777 -R /var/www/local.shubhamgaonkar.com/sites/default/settings.php 
+hacker@hacker:/etc/apache2/sites-available$ 
+
+******************************************************************************************************
